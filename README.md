@@ -5,3 +5,4 @@ Esse blog foi criado para colocar em prática conhecimetos de css ts e html junt
 
 ![image](https://github.com/riverson98/angular-blog/assets/89596532/8b990bbe-b7b1-458f-832c-a3431467ad4f)
 
+Agradecimentos a [Dio](https://www.dio.me/) e ao grande Felipe Aguiar !
