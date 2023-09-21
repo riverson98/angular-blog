@@ -1,14 +1,14 @@
 <div class="container__content">
+  <a [routerLink]="['']"> VOLTAR </a>
   <div class="content__cover">
-    <img src="https://img.quizur.com/f/img63d966885af0d3.87555390.jpg?lastEdited=1675191962" alt="" srcset="">
+    <img src="{{ photoCover }}" alt="" srcset="" />
   </div>
 
   <div class="content__title">
-    <h1>MINHA NOTICIA</h1>
-    <hr/>
+    <h1>{{ contentTitle }}</h1>
+    <hr />
   </div>
-  <hr/>
   <div class="content__description">
-    <p>OLÁ MUNDO</p>
+    <p>{{ contentDescription }}</p>
   </div>
 </div>
