@@ -1,9 +1,6 @@
-version: '3.9'
+version: "3.9"
 services:
-  angular-app:
-    image: web-app
-    container_name: angular-app
+  one-piece-blog:
+    image: one-piece-blog
     ports:
-    - 80:80
-    volumes:
-    - .\dist\angular-blog:\etc\nginx\nginx.conf
+      - 8081:80
